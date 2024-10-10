@@ -25,7 +25,7 @@ String getOption() {
     return process;
 }
 
-void calistir() {
+void run() {
     print('Hesap makinesinden çıkmak için "CIKIS" yazınız.');
 
     while (true) {
@@ -55,5 +55,5 @@ void calistir() {
     }
 }
 void main() {
-    calistir();
+    run();
 }
