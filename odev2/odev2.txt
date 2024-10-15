@@ -12,7 +12,7 @@ class Buton extends StatefulWidget {
 
 class Renk extends State<Buton> {
   int index = -1;
-  List<Color> renkler = [Colors.yellow, Colors.indigo];
+  List<Color> renkler = [Colors.yellow, const Color.fromARGB(255, 24, 42, 141)];
 
   Widget build(BuildContext context) {
     Color renk = index == -1 ? Colors.white : renkler[index];
